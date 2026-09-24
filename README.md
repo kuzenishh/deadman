@@ -7,6 +7,8 @@ It died 20 minutes in. Nobody told you. You found out at midnight.
 `deadman` watches for the **absence of a heartbeat**, not for a crash. A crash
 you can catch. Silence you cannot. One file, no dependencies.
 
+![demo](https://raw.githubusercontent.com/kuzenishh/deadman/main/deadman-demo.gif)
+
 ```
 $ deadman watch scanner --every 30m --notify telegram
 deadman: watching scanner, expects a ping every 30m (+5m grace)
